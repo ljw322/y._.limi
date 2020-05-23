@@ -2,7 +2,6 @@ var express = require('express');
 var path = require('path')
 var qs = require('querystring');
 var http = require('http');
-var async = require('async');
 var count=0;
 
 // const PORT = 8080;
