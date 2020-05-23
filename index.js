@@ -1,10 +1,7 @@
 var express = require('express');
 var path = require('path')
 var qs = require('querystring');
-var mysql = require('mysql');
 var http = require('http');
-var cookieParser = require('cookie-parser');
-var JSAlert = require("js-alert");
 var async = require('async');
 var count=0;
 
@@ -19,8 +16,6 @@ var io = require('socket.io').listen(server);
 app.set('view engine', 'ejs');
 
 app.use('/static', express.static(__dirname + '/'));
-
-app.use(cookieParser());
 
 app.get('/socket.js', function (req, res) { //라이브러리 보내줌
     res.sendFile(__dirname + '/node_modules/socket.io-client/dist/socket.io.js');
