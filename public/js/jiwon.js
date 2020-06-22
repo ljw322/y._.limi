@@ -149,7 +149,7 @@ function resultTest(){
 
 
 
-
+  swiper.speed = 20000;
   swiper.slideNext();
 }
 
