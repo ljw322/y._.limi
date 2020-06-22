@@ -153,6 +153,8 @@ function resultTest(){
   swiper.slideNext();
 }
 
+swiper.disableTouchControl();
+
 $("#clipboard-copy-btn").click(function() {
   copyClipboard();
 });

@@ -5145,6 +5145,10 @@ h6 {
   justify-content: center;
 }
 
+
+.justify-content-center{
+  padding: 15px;
+}
 /* line 476, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
 .categories_post .categories_details h5 {
   margin-bottom: 0px;

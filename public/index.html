@@ -61,12 +61,13 @@
           <div class="container">
             <div class="row justify-content-center">
               <div class="section_title text-center mb-50">
-                <h3>나에게 딱 맞는 약대생 교환학생</h3>
-                <h3>프로그램 목적지는 어디일까?</h3>
-                <p>힘들었던 약대 입시, 외워도 외워도 끝이 없는 약대 공부에 지친 김케넵.</p>
-                <p>여행으로 머리도 식히고 싶고, 외국인 친구들도 사귀고 싶고,</p>
-                <p>또 마음 한 켠으로는 보람 있는 방학도 보내고 싶은데 </p>
-                <p>어디로 떠나야 할지 모르겠나요?</p>
+                <h3>나에게 딱 맞는 약대생</h3>
+                <h3>교환학생 목적지는 어디일까?</h3>
+                <p>힘들었던 약대 입시,</p>
+                <p>외워도 외워도 끝이 없는 약대 공부에 지친 김케넵.
+                여행으로 머리도 식히고 싶고, 외국인 친구들도 사귀고 싶고,
+                또 마음 한 켠으로는 보람 있는 방학도 보내고 싶은데
+                어디로 떠나야 할지 모르겠나요? </p>
                 <p>KNAPS 교환학생관리국이 도와줄게요!</p>
               </div>
             </div>
@@ -75,6 +76,8 @@
 
           <!-- content  -->
           <div class="container">
+
+
             <div class="border_bottom">
               <div class="single_team">
                 <!-- 이미지 크기 자동조절 -->
@@ -87,9 +90,11 @@
 
                 <div class="team_info text-center">
                   <br>
-                  <p> 약대생 교환학생 프로그램을 통해 국제약학대학생연합(IPSF) 소속 90여개국에서</p>
-                  <p>약국∙병원∙연구실∙공공기관에서 약무 실습하며 보람도 느끼고,</p>
-                  <p>현지 해외 약대생들이 소개해주는 찐한 로컬 문화 체험하러 떠나봐요!</p>
+                  <p>약대생 교환학생 프로그램을 통해</p>
+                  <p>국제 약학대학생연합(IPSF) 소속 90여개국의</p>
+                  <p>약국∙병원∙연구실∙공공기관에서의 약무 실습하며 보람도 느끼고,</p>
+                  <p>현지 해외 약대생들이 소개해주는</p>
+                  <p>찐한 로컬 문화 체험하러 떠나봐요!</p>
                   <br>
                   <!-- <p>Photographer</p> -->
                   <button class="genric-btn info radius swiper-next" id="btn_start">
@@ -300,7 +305,7 @@
             <div class="row justify-content-center">
               <div class="section_title text-center mb-50">
                 <h3>Question 05</h3>
-                <p>친구가 고민을 한아름 들로 나를 찾아왔을 때, 나는</p>
+                <p>친구가 고민을 한아름 들고 나를 찾아왔을 때, 나는</p>
               </div>
             </div>
           </div>
@@ -819,14 +824,13 @@
       speed: 800,
       mousewheel: false,
       keyboard: false,
+      allowTouchMove:false,
 
-      //     onSlideChangeEnd: function (swiperObj) {
-      //   $('.swiper-container').css('scrollTop', '0');
-      // }
     });
 
     //swiper auto height
     var tabsSwiper = new Swiper('.swiper-container', {
+      allowTouchMove:false,
       speed: 300,
       calculateHeight: true,
       onSlideChangeStart: function() {
