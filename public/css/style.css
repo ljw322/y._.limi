@@ -5566,6 +5566,10 @@ h6 {
 
 /*============ Start Blog Single Styles  =============*/
 /* line 1049, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
+.single-post-area{
+  margin-top: 40px;
+}
+
 .single-post-area .blog_details {
   box-shadow: none;
   padding: 0;
