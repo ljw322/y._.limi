@@ -150,6 +150,7 @@ function resultTest(){
 
 
   swiper.speed = 20000;
+  swiper.
   swiper.slideNext();
 }
 
