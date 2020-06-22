@@ -13,6 +13,10 @@
   justify-content: start;
 }
 
+/* swiper-pagination{
+  bottom: 95%;
+} */
+
 /* Normal desktop :1200px. */
 /* Normal desktop :992px. */
 /* Tablet desktop :768px. */
@@ -2754,7 +2758,7 @@ h3 {
 
 /* line 31, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_photography.scss */
 .wild_photography .wildlife_photo img {
-  width: 100%;
+  width: 80%;
 }
 
 .wild_photography .wildlife_photo2 img {
@@ -3331,6 +3335,8 @@ h6 {
 
 /* line 155, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
 .genric-btn {
+  max-width: 100%;
+  height: auto;
   display: inline-block;
   outline: none;
   /* 버튼크기 키움 40px */
