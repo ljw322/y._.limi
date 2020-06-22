@@ -24,13 +24,13 @@ $(document).ready(
             // addOption(qNo, val);
             optionArr.push(val);
             console.log("optionArr : "+ optionArr);
-            if (qNo == 1) { //10
+            if (qNo == 10) { //1
               resultTest();
             }
-            for(var i = 0; i<10; i++){
-                swiper.slideNext();
-            }
-            // swiper.slideNext();
+            // for(var i = 0; i<10; i++){
+            //     swiper.slideNext();
+            // }
+            swiper.slideNext();
 
           })
 
@@ -143,7 +143,7 @@ var countrylist = ['멕시코', '크로아티아', '이집트', '인도', '대�
 function resultTest(){
 
   console.log(optionArr);
-  //var index = whichCountry();
+  var index = whichCountry();
 
   // $("#result_country").text(countrylist[index]);
 

@@ -13,6 +13,17 @@
   justify-content: start;
 }
 
+/* .feature{
+  float:left;
+  padding: 5px;
+  width: 50%;
+} */
+
+
+.feature-img img {
+  width: 80%;
+}
+
 /* swiper-pagination{
   bottom: 95%;
 } */
@@ -5200,16 +5211,17 @@ h6 {
 }
 
 /* line 549, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
-.blog_details h2 {
-  font-size: 18px;
+.blog_details h3 {
+  font-size: 16px;
   font-weight: 600;
   margin-bottom: 8px;
+  line-height: 150%;
 }
 
 @media (min-width: 768px) {
   /* line 549, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
-  .blog_details h2 {
-    font-size: 24px;
+  .blog_details h3 {
+    font-size: 20px;
     margin-bottom: 15px;
   }
 }
