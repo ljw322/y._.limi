@@ -12,6 +12,8 @@
   -ms-flex-pack: start;
   justify-content: start;
 }
+
+/* https://noonnu.cc/ */
 /* 남양주 */
 @font-face { font-family: 'Eoe_Zno_L'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/Eoe_Zno_L.woff') format('woff'); font-weight: normal; font-style: normal; }
 /* 리디바탕 */
@@ -36,6 +38,7 @@ h2 {
   font-family: RIDIBatang;
   font-size:18px;
   line-height: 1.8;
+  margin-bottom: 0px;
 }
 
 
