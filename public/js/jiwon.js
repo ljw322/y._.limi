@@ -24,12 +24,12 @@ $(document).ready(
             // addOption(qNo, val);
             optionArr.push(val);
             console.log("optionArr : "+ optionArr);
-            if (qNo == 1) { //10
+            if (qNo == 10) { //1
               resultTest();
             }
-            for(var i = 0; i<10; i++){
-                swiper.slideNext();
-            }
+            // for(var i = 0; i<10; i++){
+            //     swiper.slideNext();
+            // }
             swiper.slideNext();
 
           })
@@ -173,13 +173,13 @@ var countrylist = ['멕시코', '크로아티아', '이집트', '인도', '대�
 function resultTest(){
 
   console.log(optionArr);
-  // var index = whichCountry();
+  var index = whichCountry();
 
   //테스트
-  $("#result_country1").html("프랑스");
-  $("#result_country2").html("(France, ANEFP)");
-  $(".result_country_img").attr("src", "static/public/img/country/프랑스1.jpg");
-  $("#ul_id").append("<li>실습 기관: 지역약국, 대학교 연구 실험실, 병원약국</li><li>실습 도시: 프랑스 전역 (23개의 도시)</li><li>언어: 지역약국(프랑스어 또는 영어) 대학교 실험실(영어), 병원(프랑스어 또는 영어)</li>");
+  // $("#result_country1").html("프랑스");
+  // $("#result_country2").html("(France, ANEFP)");
+  // $(".result_country_img").attr("src", "static/public/img/country/프랑스1.jpg");
+  // $("#ul_id").append("<li>실습 기관: 지역약국, 대학교 연구 실험실, 병원약국</li><li>실습 도시: 프랑스 전역 (23개의 도시)</li><li>언어: 지역약국(프랑스어 또는 영어) 대학교 실험실(영어), 병원(프랑스어 또는 영어)</li>");
   // $("#result_country").text(countrylist[index]);
 
 
