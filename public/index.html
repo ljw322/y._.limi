@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>knaps2020sep</title>
-  <link rel="shortcut icon" href="static/public/img/logo.png"/>
+  <link rel="shortcut icon" href="static/public/img/logo.png" />
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -64,11 +64,10 @@
               <div class="section_title text-center mb-50">
                 <h3>나에게 딱 맞는 약대생</h3>
                 <h3>교환학생 목적지는 어디일까?</h3>
-                <p>힘들었던 약대 입시,</p>
                 <p>외워도 외워도 끝이 없는 약대 공부에 지친 김케넵.
-                여행으로 머리도 식히고 싶고, 외국인 친구들도 사귀고 싶고,
-                또 마음 한 켠으로는 보람 있는 방학도 보내고 싶은데
-                어디로 떠나야 할지 모르겠나요? </p>
+                  여행으로 머리도 식히고 싶고, 외국인 친구들도 사귀고 싶고,
+                  또 마음 한 켠으로는 보람 있는 방학도 보내고 싶은데
+                  어디로 떠나야 할지 모르겠나요? </p>
                 <p>KNAPS 교환학생관리국이 도와줄게요!</p>
               </div>
             </div>
@@ -84,23 +83,30 @@
                 <!-- 이미지 크기 자동조절 -->
                 <div class="wild_photography">
                   <div class="center text-center wildlife_photo">
-                    <img src="static/public/img/gallery/8.png" alt="">
+                    <img src="static/public/img/main.png" alt="">
                   </div>
                 </div>
 
 
+                <div class="team_info ">
+                  <br>
+                  <p>약대생 교환학생 프로그램을 통해
+                    국제 약학대학생연합(IPSF) 소속 90여개국의
+                    약국∙병원∙연구실∙공공기관에서의 약무 실습하며 보람도 느끼고,
+                    현지 해외 약대생들이 소개해주는 찐한 로컬 문화 체험하러 떠나봐요!</p>
+                  <br>
+                  <!-- <p>Photographer</p> -->
+                  <!-- <button class="genric-btn info radius swiper-next" id="btn_start">
+                    테스트 시작!
+                  </button> -->
+                </div>
                 <div class="team_info text-center">
-                  <br>
-                  <p>약대생 교환학생 프로그램을 통해</p>
-                  <p>국제 약학대학생연합(IPSF) 소속 90여개국의</p>
-                  <p>약국∙병원∙연구실∙공공기관에서의 약무 실습하며 보람도 느끼고,</p>
-                  <p>현지 해외 약대생들이 소개해주는 찐한 로컬 문화 체험하러 떠나봐요!</p>
-                  <br>
                   <!-- <p>Photographer</p> -->
                   <button class="genric-btn info radius swiper-next" id="btn_start">
                     테스트 시작!
                   </button>
                 </div>
+
               </div>
             </div>
           </div>
@@ -116,7 +122,7 @@
             <div class="row justify-content-center">
               <div class="section_title text-center mb-50">
                 <h3>Question 01</h3>
-                <p>나는 날씨가 화창한 날에는</p>
+                <p>모처럼 여유로운 주말, 나는</p>
               </div>
             </div>
           </div>
@@ -517,7 +523,7 @@
                 <div class="team_info text-center option">
                   <br>
                   <button class="genric-btn success radius quest-option option3" id="9" value="1">
-                     혹시 모르니까 기본적인 회화는 공부해 가야지!
+                    혹시 모르니까 기본적인 회화는 공부해 가야지!
                   </button>
                   <br><br>
                   <button class="genric-btn success radius quest-option option3" id="9" value="2">
@@ -601,11 +607,13 @@
           <div class="container">
             <div class="row justify-content-center">
               <div class="section_title text-center mb-50">
-                <h3>Result</h3>
                 <p>나에게 어울리는 나라는 바로!</p>
                 <br>
                 <h3>
-                  <font id="result_country" style="font-size: 30px;vertical-align: middle;"></font>
+                  <font id="result_country1" style="font-size: 30px;vertical-align: middle;"></font>
+                </h3>
+                <h3>
+                  <font id="result_country2" style="font-size: 30px;vertical-align: middle;"></font>
                 </h3>
 
               </div>
@@ -638,9 +646,12 @@
                         여유를 즐기는 당신과 걸맞은 프랑스에서의 Social event인 SEP week-ends도 준비 되어있습니다! </div>
 
                       <br>
-                      <div id="result_text02" style="text-align:left">실습 기관: 지역약국, 대학교 연구 실험실, 병원약국<br>
-                        도시: 프랑스 전역 (23개의 도시)<br>
-                        언어: 지역약국(프랑스어 또는 영어) 대학교 실험실(영어), 병원(프랑스어 또는 영어)
+                      <div class="result02" id="result_text02" style="text-align:left"><br>
+
+                        <ul id="ul_id"></ul>
+
+                        <!-- 도시: 프랑스 전역 (23개의 도시)<br>
+                        언어: 지역약국(프랑스어 또는 영어) 대학교 실험실(영어), 병원(프랑스어 또는 영어) -->
                       </div>
                     </div>
                   </div>
@@ -665,60 +676,66 @@
                     <div class="blog_details">
                       <h3>KNAPS 회원들의 약대생 교환학생 프로그램 참가 후기보고서 보러 가기</h3>
                       <a href="http://bitly.kr/xXypGhKX2T">☞ http://bitly.kr/xXypGhKX2T</a>
-
-                      <h3>약대생 교환학생 프로그램 선발공지 보러 가기 (2020 여름 선발 공지)</h3>
+                      <br><br>
+                      <h3>이전 약대생 교환학생 프로그램 선발공지 보러가기 <br>
+                        <font color="red" size="2">(2020년 겨울방학 선발공지 9월 공개 예정)</font>
+                      </h3>
                       <a href="http://bitly.kr/1krDGOJd3N">☞ http://bitly.kr/1krDGOJd3N</a>
                       <br><br>
 
-                    <div class="center text-center feature-img">
-                      <img class="img-fluid" src="static/public/img/introduce/1.jpg" alt="">
-                    </div>
-                    <div class="blog_details">
-                      <h3>교환학생 프로그램(SEP: Student Exchange Program)은 <br>
-
-                        국제약학대학생연합(IPSF, International Pharmaceutical Students’ Federation)에서
-                        주관하는 대규모 프로젝트의 일환으로 전 세계적으로 약 90여 개국, 매년 1000여명의 약학 대학생이 참여하는 프로그램입니다.
-                      </h3>
-                      <p class="excert">
-                        Outgoing Program은 KNAPS 소속 한국 약대생이 교환학생으로서 해외에서 전문적인
-                        약무 실습을 수행하는 것을 의미합니다. 매년 2차례(여름·겨울방학)에 걸쳐 진행되며
-                        파견 국가의 지역약국, 병원약국, 제약회사, 대학연구실, 정부기관 등에서 실습하며
-                        약업계를 체험하게 됩니다. 뿐만 아니라, 해당 국가의 약학대학생과 타 교환학생 프로그램
-                        참가자들과 함께 여행하며 현지 문화를 체험할 수 있습니다. 대한민국 너머의 다양한 국가에서의
-                        약무 실습을 통해 약학 대학생으로서의 견문을 넓힐 수 있을 뿐 아니라, 전 세계의 약학
-                        대학생들과 문화를 교류할 수 있는 프로그램입니다.
-                      </p>
                       <div class="center text-center feature-img">
-                        <img class="img-fluid" src="static/public/img/introduce/3.jpg" alt="">
+                        <img class="img-fluid" src="static/public/img/introduce/1.jpg" alt="">
                       </div>
-                      <div class="quote-wrapper">
-                        <div class="quotes">
-                          <ul>
-                            <li><strong>참가 자격 :</strong> KNAPS 회원</li>
-                            <li>(졸업 4년 이내의 약사도 지원 가능합니다. )</li>
-                            <li><strong>지원 기간 :</strong> 1월 (여름방학 교환학생 선발 ), 9월 (겨울방학 교환학생 선발 )</li>
-                            *지원기간에 맞추어 매년 선발 공지가 KNAPS 공지방을 통해 이루어집니다.
-                            <li><strong>파견 일정 :</strong> 여름 (6 - 9월 ), 겨울 (10월 – 3월 ) 중 약 2주~6주</li>
-                            *정확한 파견일정은 국가별로 상이합니다.
-                            <li><strong>파견 국가 :<strong> IPSF에 가입된 90여 개국</li>
-                            <a href="http://www.ipsf.org/countries">http://www.ipsf.org/countries 참조</a>
-                            <li><strong>실습 기관 :</strong> 지역 약국, 병원 약국, 제약 회사, 연구실, 정부기관, 관련 보건 기관</li>
-                          </ul>
+                      <div class="blog_details">
+                        <br>
+                        <h3>교환학생 프로그램(SEP: Student Exchange Program)은
+                          국제약학대학생연합(IPSF, International Pharmaceutical Students’ Federation)에서
+                          주관하는 대규모 프로젝트의 일환으로 전 세계적으로 약 90여 개국, 매년 1000여명의 약학 대학생이 참여하는 프로그램입니다.
+                        </h3>
+                        <p class="excert">
+                          Outgoing Program은 KNAPS 소속 한국 약대생이 교환학생으로서 해외에서 전문적인
+                          약무 실습을 수행하는 것을 의미합니다. 매년 2차례(여름·겨울방학)에 걸쳐 진행되며
+                          파견 국가의 지역약국, 병원약국, 제약회사, 대학연구실, 정부기관 등에서 실습하며
+                          약업계를 체험하게 됩니다. 뿐만 아니라, 해당 국가의 약학대학생과 타 교환학생 프로그램
+                          참가자들과 함께 여행하며 현지 문화를 체험할 수 있습니다. 대한민국 너머의 다양한 국가에서의
+                          약무 실습을 통해 약학 대학생으로서의 견문을 넓힐 수 있을 뿐 아니라, 전 세계의 약학
+                          대학생들과 문화를 교류할 수 있는 프로그램입니다.
+                        </p>
+                        <div class="center text-center feature-img">
+                          <img class="img-fluid" src="static/public/img/introduce/3.jpg" alt="">
                         </div>
+                        <div class="quote-wrapper">
+                          <div class="quotes">
+                            <ul>
+                              <li style="list-style-type: square"><strong>참가 자격 :</strong> KNAPS 회원</li>
+                              <li>(졸업 4년 이내의 약사도 지원 가능합니다. )</li>
+                              <li style="list-style-type: square"><strong>지원 기간 :</strong> 1월 (여름방학 교환학생 선발 ), 9월 (겨울방학 교환학생 선발 )</li>
+                              <li>*지원기간에 맞추어 매년 선발 공지가 KNAPS 공지방을 통해 이루어집니다.</li>
+                              <br>
+                              <li style="list-style-type: square"><strong>파견 일정 :</strong> 여름 (6 - 9월 ), 겨울 (10월 – 3월 ) 중 약 2주~6주</li>
+                              <li>*정확한 파견일정은 국가별로 상이합니다.</li>
+                              <br>
+                              <li style="list-style-type: square"><strong>파견 국가 :</strong> IPSF에 가입된 90여 개국</li>
+                              <li><a href="http://www.ipsf.org/countries">http://www.ipsf.org/countries</a> 참고</li>
+                              <br>
+                              <li style="list-style-type: square"><strong>실습 기관 :</strong> 지역 약국, 병원 약국, 제약 회사, 연구실, 정부기관, 관련 보건 기관</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <br><br>
                       </div>
-                      <br><br>
                     </div>
+
                   </div>
+                  <!-- ///////////////////////////////////////// -->
 
                 </div>
-                <!-- ///////////////////////////////////////// -->
+
 
               </div>
-            </div>
           </section>
           <!--================ Blog Area end =================-->
           <!-- ///////////////////////////////////////// -->
-
 
 
 
@@ -745,13 +762,16 @@
         </div>
 
         <div class="address_info">
-          <h4>KNAPS 교환학생관리국장</h4>
+          <h4>KNAPS 교환학생관리국</h4>
           <p> knaps.sep@gmail.com </p>
           <h4>KNAPS 공식 홈페이지</h4>
-          <a href="http://www.knaps.or.kr">www.knaps.or.kr</a>
+          <a href="http://www.knaps.or.kr" style="font-weight: normal;">www.knaps.or.kr</a>
           <br><br>
           <h4>KNAPS 인스타그램 </h4>
           <p>@knaps_korea_official </p>
+          <br>
+          <h4 style="font-weight: bold;">개발문의</h4>
+          <p>dlwldnjs9690@gmail.com </p>
         </div>
 
 
@@ -826,13 +846,13 @@
       speed: 800,
       mousewheel: false,
       keyboard: false,
-      allowTouchMove:false,
+      allowTouchMove: false,
 
     });
 
     //swiper auto height
     var tabsSwiper = new Swiper('.swiper-container', {
-      allowTouchMove:false,     //요거
+      allowTouchMove: false, //요거
       speed: 300,
       calculateHeight: true,
       onSlideChangeStart: function() {

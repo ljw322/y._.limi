@@ -765,7 +765,7 @@ h3 {
 @media (max-width: 767px) {
   /* line 42, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_section_title.scss */
   .mb-50 {
-    margin-bottom: 40px;
+    margin-bottom: 10px;
   }
 }
 
@@ -2142,8 +2142,8 @@ h3 {
 
 /* line 1, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_team.scss */
 .team_area {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 /* line 4, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_team.scss */
@@ -2153,7 +2153,7 @@ h3 {
 
 /* line 6, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_team.scss */
 .team_area .border_bottom .single_team {
-  margin-bottom: 60px;
+  margin-bottom: 30px;  /*원래 60이었음*/
 }
 
 /* line 8, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_team.scss */
@@ -2763,9 +2763,9 @@ h3 {
 }
 
 /* line 28, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_photography.scss */
-.wild_photography {
+/* .wild_photography {
   background: #F5FBFF;
-}
+} */
 
 /* line 31, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_photography.scss */
 .wild_photography .wildlife_photo img {
@@ -2773,7 +2773,7 @@ h3 {
 }
 
 .wild_photography .wildlife_photo2 img {
-  width: 60%;
+  width: 80%;
 }
 
 /* line 35, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_photography.scss */
@@ -3346,7 +3346,7 @@ h6 {
 
 /* line 155, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
 .genric-btn {
-  max-width: 100%;
+  max-width: 80%;   /*버튼크기 이부분*/
   height: auto;
   display: inline-block;
   outline: none;
@@ -5611,9 +5611,9 @@ h6 {
 }
 
 /* line 1074, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
-.single-post-area .blog_details {
-  padding-top: 26px;
-}
+/* .single-post-area .blog_details {
+  padding-top: ;
+} */
 
 /* line 1077, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
 .single-post-area .blog_details p {
@@ -5621,13 +5621,21 @@ h6 {
   font-size: 15px;
 }
 
+/* #ul_id ul{
+  list-style-type: square;
+} */
+
+.result02 li{
+  list-style-type: square;
+}
+
 /* line 1087, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
 .single-post-area .quote-wrapper {
   background: rgba(130, 139, 178, 0.1);
   padding: 15px;
   line-height: 1.733;
-  color: #888888;
-  font-style: italic;
+  /* color: #888888; */
+  /* font-style: italic; */
   margin-top: 25px;
   margin-bottom: 25px;
 }
@@ -5644,6 +5652,10 @@ h6 {
   background: #fff;
   padding: 15px 15px 15px 20px;
   border-left: 2px solid;
+}
+
+.single-post-area .quotes li{
+  margin-left: 5px;
 }
 
 @media (min-width: 768px) {
