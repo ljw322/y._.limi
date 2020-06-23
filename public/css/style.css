@@ -3346,7 +3346,7 @@ h6 {
 
 /* line 155, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
 .genric-btn {
-  max-width: 80%;   /*버튼크기 이부분*/
+  max-width: 100%;   /*버튼크기 이부분*/
   height: auto;
   display: inline-block;
   outline: none;
