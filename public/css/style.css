@@ -12,16 +12,45 @@
   -ms-flex-pack: start;
   justify-content: start;
 }
-
+/* 남양주 */
+@font-face { font-family: 'Eoe_Zno_L'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/Eoe_Zno_L.woff') format('woff'); font-weight: normal; font-style: normal; }
+/* 리디바탕 */
+@font-face { font-family: 'RIDIBatang'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff'); font-weight: normal; font-style: normal; }
+/* 인피니티산스 regular */
+@font-face { font-family: 'InfinitySans-RegularA1'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-RegularA1.woff') format('woff'); font-weight: normal; font-style: normal; }
+/* 인피니티산스 Bold */
+@font-face { font-family: 'InfinitySans-BoldA1'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-BoldA1.woff') format('woff'); font-weight: normal; font-style: normal; }
 /* .feature{
   float:left;
   padding: 5px;
   width: 50%;
 } */
 
+h1 {
+  font-family: RIDIBatang;
+  font-size:16px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: RIDIBatang;
+  font-size:18px;
+  line-height: 1.8;
+}
+
 
 .feature-img img {
   width: 80%;
+}
+
+h5{
+  font-family: InfinitySans-RegularA1;
+  font-size:22px;
+}
+
+h4{
+  font-family: InfinitySans-RegularA1;
+  font-size:17px;
 }
 
 /* swiper-pagination{
@@ -87,7 +116,7 @@ button {
 }
 
 /* line 39, ../../Arafath/CL/CL October/215. Photography/HTML/scss/theme-default.scss */
-h1, h2, h3, h4, h5 {
+h3 {
   font-family: "Poppins", sans-serif;
   color: #1F1F1F;
 }
@@ -121,7 +150,23 @@ p {
   color: #4D4D4D;
   margin-bottom: 13px;
   font-family: "Poppins", sans-serif;
+
 }
+
+
+
+
+/* p {
+  font-family: 'Eoe_Zno_L';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/Eoe_Zno_L.woff') format('woff');
+  font-weight: normal; font-style: normal;
+
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #4D4D4D;
+  margin-bottom: 13px;
+} */
 
 /* line 68, ../../Arafath/CL/CL October/215. Photography/HTML/scss/theme-default.scss */
 label {
@@ -3273,29 +3318,33 @@ del {
 }
 
 /* line 93, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
-h1 {
+/* h1 {
   font-size: 36px;
-}
+} */
 
 /* line 97, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
-h2 {
+/* h2 {
   font-size: 30px;
-}
+} */
 
 /* line 101, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
 h3 {
   font-size: 24px;
+  font-family: 'InfinitySans-BoldA1';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-BoldA1.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* line 105, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
-h4 {
+/* h4 {
   font-size: 18px;
-}
+} */
 
 /* line 109, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
-h5 {
+/* h5 {
   font-size: 16px;
-}
+} */
 
 /* line 113, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
 h6 {
@@ -3303,14 +3352,12 @@ h6 {
 }
 
 /* line 117, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
-h1,
-h2,
 h3,
-h4,
-h5,
 h6 {
   line-height: 1.2em;
 }
+
+@font-face { font-family: 'InfinitySans-BoldA1'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-BoldA1.woff') format('woff'); font-weight: normal; font-style: normal; }
 
 /* line 127, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
 .typography h1,
